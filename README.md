@@ -1624,11 +1624,17 @@ if (int(func) == 1):
 
 
 elif (int(func) == 2):
+
     username=input('請輸入您的姓名\n')
+    
     member.add(username)
+    
     print('恭喜您成功加入會員!!\n') 
+    
     print('餐券\n電影票\n展覽活動\n遊樂園\n')
+    
     category=input('請選擇商品類別\n')
+    
 
     if(category=='餐券'):
         A={}
