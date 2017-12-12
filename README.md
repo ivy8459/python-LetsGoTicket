@@ -2590,6 +2590,7 @@ elif (int(func) == 2):
         print('請重新輸入')
     
 elif (int(func) == 3):    
+    
     for allproduct in productlist:
         print(allproduct)
         print(productlist[allproduct])
