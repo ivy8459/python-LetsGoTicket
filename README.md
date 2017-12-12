@@ -14,9 +14,12 @@ productlist = {
 
 
 print('╠═╬═ ►Let’s Go樂吃購票券網◄ ═╬═╣')
+
 print('∴∵∴∵∴加入會員享多重優惠∴∵∴∵∴')
 
+
 func = input('瀏覽商品請輸入1\n加入會員請輸入2\n查看所有合作廠商請輸入3\n退換票券請輸入4\n')
+
 if (int(func) == 1):    
     print('餐券\n電影票\n展覽活動\n遊樂園\n')
     category=input('請選擇商品類別\n')
@@ -1618,6 +1621,7 @@ if (int(func) == 1):
 
     else:
         print('請重新輸入')
+
 
 elif (int(func) == 2):
     username=input('請輸入您的姓名\n')
